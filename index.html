@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <body onload="onLoad">
   <div id="wrapper">
     <!-- Header -->
     <div id="header">
@@ -405,7 +406,7 @@ th, td, {
         <!-- Report Bullying -->
         <div id="ReportBullying" class="tabcontent">
           <h1 style="font-family:Oswald">
-            Report Bullying
+            Report Bullyin
           </h1>
 
           <p style="font-family:Oswald">
@@ -563,6 +564,19 @@ th, td, {
       function myFunction() {
     alert("You submited it, a cousler should contact you soon!");
 }
+    function onLoad() {
+      var x = document.getElementById("ReportBullying");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+        var x = document.getElementById("BullyReport");
+      if (x.style.display === "none") {
+          x.style.display = "block";
+      } else {
+          x.style.display = "none";
+    }
+
     function openTab(evt, tab) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
