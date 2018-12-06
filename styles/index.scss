@@ -17,6 +17,11 @@ body {
   height: 100%;
 }
 
+.toggled {
+  background-color: #3DB7E4;
+  display:none;
+}
+
 #leftWrapper {
   display: inline-block;
   position: absolute;

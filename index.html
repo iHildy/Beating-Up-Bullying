@@ -63,7 +63,7 @@
     </div>
     <!-- Right Content -->
     <div id="rightWrapper">
-     
+
       <div id="contentWrapper">
         <!-- Homepage -->
         <div id="MainContent">
@@ -133,6 +133,7 @@ th, td, {
         </th>
       </tr>
 </table>
+<button type="button" class="btn">Show/Hide</button>
         </div>
         <!-- Login -->
         <div id="Login" class="tabcontent" href="/">
@@ -572,9 +573,15 @@ th, td, {
     alert("You submited it, a cousler should contact you soon!");
 }
 
-window.onLoad = function() {
-  alert("hi");
-}
+document.querySelector('.btn').addEventListener('click', function(e) {
+[].map.call(document.querySelectorAll('.click-target'), function(el) {
+  el.classList.toggle('toggled');
+});
+});
+
+//window.onLoad = function() {
+  //alert("hi");
+//}
 
     function openTab(evt, tab) {
       var i, tabcontent, tablinks;
