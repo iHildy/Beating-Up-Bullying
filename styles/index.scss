@@ -221,6 +221,15 @@ input[type="password"]:focus {
   outline: none;
 }
 
+.click-target {
+  display:block;
+}
+
+.toggled {
+  background-color: #3DB7E4;
+  display:none;
+}
+
 /* Set a style for all buttons */
 
 button {
