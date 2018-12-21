@@ -17,39 +17,6 @@ body {
   height: 100%;
 }
 
-.toggled {
-  background-color: #3DB7E4;
-  display:none;
-}
-
-.click-target {
-  display:block;
-}
-
-.btn {
-  display: inline-block;
-  background-color: #00B2B0;
-  color: #ffffff;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
-
 #leftWrapper {
   display: inline-block;
   position: absolute;
@@ -91,7 +58,7 @@ body {
   position: absolute;
   left: 15em;
   margin: 0;
-  padding: 0px 40px;
+  padding: 0px 0px;
   width: calc(100% - 15em);
   height: 100%;
   overflow-y: scroll;
@@ -690,6 +657,8 @@ hr {
   }
 }
 
+
+
 #contentWrapper {
   display: block;
   position: relative;
@@ -698,9 +667,7 @@ hr {
   height: 100%;
 }
 
-body {
-  text-align: center;
-}
+
 
 #page-wrap {
   text-align: left;
