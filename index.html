@@ -27,7 +27,7 @@
     </div>
     <!-- Left Nav -->
     <div id="leftWrapper">
-      <div class="list" id="listView">
+      <div class="click-target" id="listView">
         <ul>
           <li class="list-item-active">
             <a href="#" onclick="openTab(event, 'MainContent')">Home</a>
@@ -572,6 +572,15 @@ th, td, {
     alert("You submited it, a cousler should contact you soon!");
 }
 
+<<<<<<< HEAD
+=======
+document.querySelector('.btn').addEventListener('click', function(e) {
+[].map.call(document.querySelectorAll('.click-target'), function(el) {
+    el.classList.toggle('toggled');
+  });
+});
+
+>>>>>>> f515a60b13e46eb051922116f89a3444f904d9be
 //window.onLoad = function() {
   //alert("hi");
 //}
