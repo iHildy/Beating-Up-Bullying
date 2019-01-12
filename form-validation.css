@@ -1,0 +1,13 @@
+.container {
+  max-width: 960px;
+}
+
+.report {
+  text-align: center
+}
+
+.sub-menu {
+    width: 2.0em;
+}
+
+.lh-condensed { line-height: 1.25; }
